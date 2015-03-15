@@ -1,0 +1,55 @@
+{
+    "id": "skeleton",
+    "name": "Skeleton",
+    "description": "It looks like a living skeleton... with no clothes on.",
+    "position": {"row": 6, "column": 3},
+    "direction": "west",
+    "triggers": [{
+        "type": "talk",
+        "actions": [{
+            "action": "walk-to",
+            "objects": ["7", "3"],
+            "actions": [{
+                "action": "run-conversation",
+                "objects": ["1"],
+                "requirements": [{
+                    "flag": "gave-jacket",
+                    "type": "equals",
+                    "value": "false"
+                }]
+            },
+            {
+                "action": "run-conversation",
+                "objects": ["10"],
+                "requirements": [{
+                    "flag": "gave-jacket",
+                    "type": "equals",
+                    "value": "true"
+                }]
+            }]
+        }]
+    },{
+        "type": "look",
+        "actions": [{
+            "action": "walk-to",
+            "objects": ["7", "3"],
+            "actions": [{
+                "action": "say",
+                "objects": ["It looks like a living skeleton... with no clothes on."],
+                "requirements": [{
+                    "flag": "gave-jacket",
+                    "type": "equals",
+                    "value": "false"
+                }]
+            }, {
+                "action": "say",
+                "objects": ["It looks like a skeleton Robin Hood"],
+                "requirements": [{
+                    "flag": "gave-jacket",
+                    "type": "equals",
+                    "value": "true"
+                }]
+            }]
+        }]
+    }]
+}

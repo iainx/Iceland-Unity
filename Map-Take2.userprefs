@@ -1,0 +1,22 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Items/ItemFactory.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Controller.cs" Line="133" Column="6" />
+      <File FileName="Assets/Scripts/Inventory.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Conversations/ConversationDependancy.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UI/TextController.cs" Line="97" Column="3" />
+      <File FileName="Assets/Scripts/Conversations/ConversationPanel.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Items/ItemFactory.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Items/Item.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UI/UIController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Conversations/ConversationAction.cs" Line="57" Column="4" />
+      <File FileName="Assets/Scripts/NPC/ActionTrigger.cs" Line="28" Column="4" />
+      <File FileName="Assets/Scripts/Conversations/ConversationFactory.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

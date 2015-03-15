@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" renderorder="right-down" width="10" height="10" tilewidth="100" tileheight="50">
+ <tileset firstgid="1" name="Kenney" tilewidth="100" tileheight="80">
+  <tile id="0">
+   <image width="100" height="65" source="images/beach.png"/>
+  </tile>
+  <tile id="1">
+   <image width="100" height="58" source="images/beachCornerES.png"/>
+  </tile>
+  <tile id="2">
+   <image width="100" height="65" source="images/beachCornerNE.png"/>
+  </tile>
+  <tile id="3">
+   <image width="100" height="58" source="images/beachCornerNW.png"/>
+  </tile>
+  <tile id="4">
+   <image width="100" height="58" source="images/beachCornerSW.png"/>
+  </tile>
+  <tile id="5">
+   <image width="100" height="65" source="images/beachE.png"/>
+  </tile>
+  <tile id="6">
+   <image width="100" height="65" source="images/beachES.png"/>
+  </tile>
+  <tile id="7">
+   <image width="100" height="65" source="images/beachN.png"/>
+  </tile>
+  <tile id="8">
+   <image width="100" height="58" source="images/beachNE.png"/>
+  </tile>
+  <tile id="9">
+   <image width="100" height="65" source="images/beachNW.png"/>
+  </tile>
+  <tile id="10">
+   <image width="100" height="58" source="images/beachS.png"/>
+  </tile>
+  <tile id="11">
+   <image width="100" height="65" source="images/beachSW.png"/>
+  </tile>
+  <tile id="12">
+   <image width="100" height="58" source="images/beachW.png"/>
+  </tile>
+  <tile id="13">
+   <image width="100" height="62" source="images/bridgeEW.png"/>
+  </tile>
+  <tile id="14">
+   <image width="100" height="62" source="images/bridgeNS.png"/>
+  </tile>
+  <tile id="15">
+   <image width="14" height="36" source="images/coniferAltShort.png"/>
+  </tile>
+  <tile id="16">
+   <image width="19" height="48" source="images/coniferAltTall.png"/>
+  </tile>
+  <tile id="17">
+   <image width="14" height="36" source="images/coniferShort.png"/>
+  </tile>
+  <tile id="18">
+   <image width="19" height="48" source="images/coniferTall.png"/>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="exits" value="north,south,east,west"/>
+   </properties>
+   <image width="100" height="65" source="images/crossroad.png"/>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="exits" value="east,west,south"/>
+   </properties>
+   <image width="100" height="65" source="images/crossroadESW.png"/>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="exits" value="north,south,east"/>
+   </properties>
+   <image width="100" height="65" source="images/crossroadNES.png"/>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="exits" value="north,east,west"/>
+   </properties>
+   <image width="100" height="65" source="images/crossroadNEW.png"/>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="exits" value="north,south,west"/>
+   </properties>
+   <image width="100" height="65" source="images/crossroadNSW.png"/>
+  </tile>
+  <tile id="24">
+   <image width="100" height="58" source="images/dirt.png"/>
+  </tile>
+  <tile id="25">
+   <image width="100" height="65" source="images/dirtDouble.png"/>
+  </tile>
+  <tile id="26">
+   <image width="100" height="65" source="images/endE.png"/>
+  </tile>
+  <tile id="27">
+   <image width="100" height="65" source="images/endN.png"/>
+  </tile>
+  <tile id="28">
+   <image width="100" height="65" source="images/endS.png"/>
+  </tile>
+  <tile id="29">
+   <image width="100" height="65" source="images/endW.png"/>
+  </tile>
+  <tile id="30">
+   <image width="100" height="65" source="images/exitE.png"/>
+  </tile>
+  <tile id="31">
+   <image width="100" height="65" source="images/exitN.png"/>
+  </tile>
+  <tile id="32">
+   <image width="100" height="65" source="images/exitS.png"/>
+  </tile>
+  <tile id="33">
+   <image width="100" height="65" source="images/exitW.png"/>
+  </tile>
+  <tile id="34">
+   <image width="100" height="65" source="images/grass.png"/>
+  </tile>
+  <tile id="35">
+   <image width="100" height="65" source="images/grassWhole.png"/>
+  </tile>
+  <tile id="36">
+   <image width="100" height="65" source="images/hillE.png"/>
+  </tile>
+  <tile id="37">
+   <image width="100" height="65" source="images/hillES.png"/>
+  </tile>
+  <tile id="38">
+   <image width="100" height="65" source="images/hillN.png"/>
+  </tile>
+  <tile id="39">
+   <image width="100" height="65" source="images/hillNE.png"/>
+  </tile>
+  <tile id="40">
+   <image width="100" height="65" source="images/hillNW.png"/>
+  </tile>
+  <tile id="41">
+   <image width="100" height="80" source="images/hillS.png"/>
+  </tile>
+  <tile id="42">
+   <image width="100" height="80" source="images/hillSW.png"/>
+  </tile>
+  <tile id="43">
+   <image width="100" height="80" source="images/hillW.png"/>
+  </tile>
+  <tile id="44">
+   <image width="100" height="65" source="images/lotE.png"/>
+  </tile>
+  <tile id="45">
+   <image width="100" height="65" source="images/lotES.png"/>
+  </tile>
+  <tile id="46">
+   <image width="100" height="65" source="images/lotN.png"/>
+  </tile>
+  <tile id="47">
+   <image width="100" height="65" source="images/lotNE.png"/>
+  </tile>
+  <tile id="48">
+   <image width="100" height="65" source="images/lotNW.png"/>
+  </tile>
+  <tile id="49">
+   <image width="100" height="65" source="images/lotS.png"/>
+  </tile>
+  <tile id="50">
+   <image width="100" height="65" source="images/lotSW.png"/>
+  </tile>
+  <tile id="51">
+   <image width="100" height="65" source="images/lotW.png"/>
+  </tile>
+  <tile id="52">
+   <image width="100" height="65" source="images/riverBankedES.png"/>
+  </tile>
+  <tile id="53">
+   <image width="100" height="65" source="images/riverBankedEW.png"/>
+  </tile>
+  <tile id="54">
+   <image width="100" height="65" source="images/riverBankedNE.png"/>
+  </tile>
+  <tile id="55">
+   <image width="100" height="65" source="images/riverBankedNS.png"/>
+  </tile>
+  <tile id="56">
+   <image width="100" height="65" source="images/riverBankedNW.png"/>
+  </tile>
+  <tile id="57">
+   <image width="100" height="65" source="images/riverBankedSW.png"/>
+  </tile>
+  <tile id="58">
+   <image width="100" height="65" source="images/riverES.png"/>
+  </tile>
+  <tile id="59">
+   <image width="100" height="65" source="images/riverEW.png"/>
+  </tile>
+  <tile id="60">
+   <image width="100" height="65" source="images/riverNE.png"/>
+  </tile>
+  <tile id="61">
+   <image width="100" height="65" source="images/riverNS.png"/>
+  </tile>
+  <tile id="62">
+   <image width="100" height="65" source="images/riverNW.png"/>
+  </tile>
+  <tile id="63">
+   <image width="100" height="65" source="images/riverSW.png"/>
+  </tile>
+  <tile id="64">
+   <image width="100" height="65" source="images/road.png"/>
+  </tile>
+  <tile id="65">
+   <properties>
+    <property name="exits" value="east,south"/>
+   </properties>
+   <image width="100" height="65" source="images/roadES.png"/>
+  </tile>
+  <tile id="66">
+   <properties>
+    <property name="exits" value="east,west"/>
+   </properties>
+   <image width="100" height="65" source="images/roadEW.png"/>
+  </tile>
+  <tile id="67">
+   <properties>
+    <property name="exits" value="east,west"/>
+   </properties>
+   <image width="100" height="65" source="images/roadHill2E.png"/>
+  </tile>
+  <tile id="68">
+   <properties>
+    <property name="exits" value="north,south"/>
+   </properties>
+   <image width="100" height="65" source="images/roadHill2N.png"/>
+  </tile>
+  <tile id="69">
+   <properties>
+    <property name="exits" value="north,south"/>
+   </properties>
+   <image width="100" height="77" source="images/roadHill2S.png"/>
+  </tile>
+  <tile id="70">
+   <properties>
+    <property name="exits" value="east,west"/>
+   </properties>
+   <image width="100" height="77" source="images/roadHill2W.png"/>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="centre-x" value="50"/>
+    <property name="centre-y" value="45"/>
+    <property name="east-x" value="75"/>
+    <property name="east-y" value="50"/>
+    <property name="exits" value="east,west"/>
+    <property name="west-x" value="25"/>
+    <property name="west-y" value="40"/>
+   </properties>
+   <image width="100" height="65" source="images/roadHillE.png"/>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="exits" value="north,south"/>
+   </properties>
+   <image width="100" height="65" source="images/roadHillN.png"/>
+  </tile>
+  <tile id="73">
+   <properties>
+    <property name="exits" value="north,south"/>
+   </properties>
+   <image width="100" height="80" source="images/roadHillS.png"/>
+  </tile>
+  <tile id="74">
+   <properties>
+    <property name="centre-x" value="50"/>
+    <property name="centre-y" value="45"/>
+    <property name="east-x" value="75"/>
+    <property name="east-y" value="65"/>
+    <property name="exits" value="east,west"/>
+    <property name="west-x" value="25"/>
+    <property name="west-y" value="25"/>
+   </properties>
+   <image width="100" height="80" source="images/roadHillW.png"/>
+  </tile>
+  <tile id="75">
+   <properties>
+    <property name="exits" value="north,east"/>
+   </properties>
+   <image width="100" height="65" source="images/roadNE.png"/>
+  </tile>
+  <tile id="76">
+   <properties>
+    <property name="exits" value="north,south"/>
+   </properties>
+   <image width="100" height="65" source="images/roadNS.png"/>
+  </tile>
+  <tile id="77">
+   <properties>
+    <property name="exits" value="north,west"/>
+   </properties>
+   <image width="100" height="65" source="images/roadNW.png"/>
+  </tile>
+  <tile id="78">
+   <properties>
+    <property name="exits" value="west,south"/>
+   </properties>
+   <image width="100" height="65" source="images/roadSW.png"/>
+  </tile>
+  <tile id="79">
+   <image width="11" height="32" source="images/treeAltShort.png"/>
+  </tile>
+  <tile id="80">
+   <image width="11" height="41" source="images/treeAltTall.png"/>
+  </tile>
+  <tile id="81">
+   <image width="11" height="32" source="images/treeShort.png"/>
+  </tile>
+  <tile id="82">
+   <image width="12" height="41" source="images/treeTall.png"/>
+  </tile>
+  <tile id="83">
+   <image width="100" height="58" source="images/water.png"/>
+  </tile>
+  <tile id="84">
+   <image width="100" height="58" source="images/waterCornerES.png"/>
+  </tile>
+  <tile id="85">
+   <image width="100" height="65" source="images/waterCornerNE.png"/>
+  </tile>
+  <tile id="86">
+   <image width="100" height="58" source="images/waterCornerNW.png"/>
+  </tile>
+  <tile id="87">
+   <image width="100" height="58" source="images/waterCornerSW.png"/>
+  </tile>
+  <tile id="88">
+   <image width="100" height="65" source="images/waterE.png"/>
+  </tile>
+  <tile id="89">
+   <image width="100" height="65" source="images/waterES.png"/>
+  </tile>
+  <tile id="90">
+   <image width="100" height="65" source="images/waterN.png"/>
+  </tile>
+  <tile id="91">
+   <image width="100" height="65" source="images/waterNE.png"/>
+  </tile>
+  <tile id="92">
+   <image width="100" height="65" source="images/waterNW.png"/>
+  </tile>
+  <tile id="93">
+   <image width="100" height="58" source="images/waterS.png"/>
+  </tile>
+  <tile id="94">
+   <image width="100" height="58" source="images/waterSW.png"/>
+  </tile>
+  <tile id="95">
+   <image width="100" height="58" source="images/waterW.png"/>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="10" height="10">
+  <data encoding="csv">
+79,77,77,77,77,77,77,77,77,78,
+67,35,35,35,35,48,46,79,77,76,
+67,35,35,35,35,47,50,67,79,78,
+67,35,12,6,10,49,51,67,72,67,
+67,35,8,84,11,35,79,76,75,67,
+67,35,7,13,9,35,72,79,76,72,
+67,35,35,35,35,35,75,66,78,75,
+21,77,77,77,77,78,66,77,76,67,
+21,77,77,77,77,23,35,35,35,67,
+66,77,77,77,77,22,77,77,77,76
+</data>
+ </layer>
+</map>

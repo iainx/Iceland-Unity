@@ -1,0 +1,66 @@
+[{
+    "id": 1,
+    "player": ["Erm, hello?"],
+    "character": ["What is it, pesky human?"],
+    "responseIDs": [2, 4, 8]
+},
+{
+    "id": 2,
+    "player": ["Who are you?"],
+    "character": ["I am Death!", "The Grim Reaper!", "The collector of souls"],
+    "responseIDs": [3, 4]
+},
+{
+    "id": 3,
+    "player": ["Aren't you cold?"],
+    "character": ["Of course I am, stupid human"],
+    "responseIDs": [5]
+},
+{
+    "id": 4,
+    "player": ["Do you realise you've got no clothes on?"],
+    "character": ["Of course I do. I'm freezing"],
+    "responseIDs": [5]
+},
+{
+    "id": 5,
+    "player": ["Where are your clothes?"],
+    "character": ["I've lost them", "Or someone stole them", "Can you find them?"],
+    "responseIDs": [6, 7],
+    "dependencies": [{
+        "type": "player-has",
+        "objects": ["Jacket"],
+        "actions": [{
+            "action": "replace-responses",
+            "objects": ["9"]
+        }]
+    }]
+},
+{
+    "id": 6,
+    "player": ["Ok"],
+},
+{
+    "id": 7,
+    "player": ["Nope"],
+},
+{
+    "id": 8,
+    "player": ["Sorry to disturb you"],
+},
+{
+    "id": 9,
+    "player": ["Is this your jacket?"],
+    "character": ["Oh, yes, thank you, not so useless human"],
+    "actions": [{
+        "action": "remove-item",
+        "objects": ["jacket"]
+    },{
+        "action": "set-flag",
+        "objects": ["gave-jacket", "true"]
+    }]
+},
+{
+    "id": 10,
+    "character": ["I'm all wrapped up nice and warm now. Now leave me"]
+}]
